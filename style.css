@@ -1,0 +1,56 @@
+.navbar{
+    background-color: gray !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start; 
+  gap: 20px; 
+}
+
+.table {
+  flex: 1;
+}
+
+.students-image {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.6s  ease-in-out ;
+}
+
+.students-image:hover{
+    transform: scale(1.05) translate(-40px);
+    transition: transform 1s  ease-in-out;
+}
+
+.job-category{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 550px;
+    background-color: #ABABFF;
+}
+
+.dep-details{
+   min-height:400px ;
+   margin-top: 20px;
+   margin-bottom: 60px;
+   background-color: #BCBC9A;
+}
+
+.services{
+   box-shadow: 10px 10px 10px black;
+}
+
+footer{
+    min-height: 250px;
+    background-color: #404040;
+    margin-top: 100px;
+    color: white;
+}
+
